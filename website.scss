@@ -1,0 +1,29 @@
+*{
+	border: 1px solid green;
+}
+header{
+	position: fixed;
+	width: 100%;
+	/*display: block;*/
+}
+div{
+	display: inline-block;
+}
+body, html {
+ height:100%;
+}
+.intro{
+	background-image:url("/img/globe.jpg");
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+p{
+	text-align: center;
+}
+
+@media screen and (max-width:350px){
+
+}
