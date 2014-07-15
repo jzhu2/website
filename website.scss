@@ -7,7 +7,7 @@ header{
 	z-index:1;
 	padding: 10px;
 	color: white;
-
+	opacity: 0.8;
 	/*margin-right: 6%*/
 }
 .link{
@@ -16,12 +16,16 @@ header{
 	margin-top: 10px;
 	font-size: 17px;
 	color: white;
+	font-family: 'Lobster', cursive;
+	/*text-align: center;*/
 }
 a{
 	border-bottom: 3px solid white;
-	margin: 5%;
+	margin: 9%;
 	color: orange;
-	text-decoration: none
+	text-decoration: none;
+	/*cursor: not-allowed;*/
+	text-align: center;
 }
 a:hover{
 	background-color: black;
@@ -32,6 +36,7 @@ a:hover{
 	font-size: 32px;
 	margin-right: 6%;
 	font-family: 'Lobster', cursive;
+	text-align: center;
 }
 .intro1{
 	border: 20px solid green;
@@ -51,7 +56,7 @@ body, html {
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
-	opacity: 0.5;
+	opacity: 0.9;
 	padding-top: 17%;
 	line-height: 30px;
 }
@@ -75,13 +80,28 @@ p{
 
 @media screen and (max-width:500px){
 	.intro{
-		background-image: none;
-		color: black;
-		opacity:1;
-
+		color: yellow;
+		opacity:0.8;
+		padding-top: 190px;
+		width: 100%;
+		background-image:none;
+		background-image: url("/img/map.jpg");
+		width: auto;
+	}
+	.link{
+		text-align: center;
 	}
 	.travels{
 		display:block;
 		text-align: center;
+	}
+	.link{
+		display: block;
+	}
+	header{
+		position:absolute;
+	}
+	.intro1{
+		opacity: 1;
 	}
 }
