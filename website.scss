@@ -1,18 +1,40 @@
 *{
-	border: 1px solid green;
+	/*border: 1px solid green;*/
 }
 header{
 	position: fixed;
 	width: 100%;
 	display: block;
-
+	background-color:#3366Cc;
+	z-index:1;
+	padding: 10px;
+	color: white;
+	/*margin-right: 6%*/
 }
 .link{
 	display: inline;
-	margin: 3.5%;
+	/*margin-right: 6%;*/
+	margin-top: 10px;
+	font-size: 17px;
+	color: white;
+}
+a{
+	border-bottom: 3px solid white;
+	margin: 5%;
+	color: orange;
+	text-decoration: none
+}
+a:hover{
+	background-color: white;
+}
+
+.travels{
+	font-size: 30px;
+	margin-right: 6%;
 }
 .intro1{
 	border: 20px solid green;
+	border-radius: 25%;
 }
 body, html {
 	height:100%;
@@ -30,6 +52,9 @@ body, html {
 	padding-top: 15%;
 	line-height: 30px;
 }
+.intro .intro1 {
+	opacity: 1;
+}
 
 .introduction{
 	font-size: 50px;
@@ -39,12 +64,13 @@ body, html {
 .introp{
 	font-family: Comic Sans MS,;
 	font-size: 17px;
+	/*width: 80%;*/
 }
 p{
 	text-align: center;
 }
 
-@media screen and (max-width:350px){
+@media screen and (max-width:500px){
 	.intro{
 		background-image: none
 	}
