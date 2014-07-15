@@ -5,11 +5,12 @@
 header {
   position: fixed;
   width: 100%;
-  /*display: block;*/
+  display: block;
 }
 
 div {
-  display: inline-block;
+  display: inline;
+  margin: 5px;
 }
 
 body, html {
@@ -21,14 +22,21 @@ h2 {
 }
 
 .intro {
-  background-image: url("/img/globe.jpg");
+  background-image: url("/img/map.jpg");
   height: 100%;
   width: 100%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
 }
 
 p {
   text-align: center;
+}
+
+@media screen and (max-width: 350px) {
+  .intro {
+    background-image: none;
+  }
 }
