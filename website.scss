@@ -7,9 +7,12 @@ header{
 	display: block;
 
 }
-div{
+.link{
 	display: inline;
-	margin: 10px;
+	margin: 3.5%;
+}
+.intro1{
+	border: 20px solid green;
 }
 body, html {
 	height:100%;
@@ -27,6 +30,7 @@ body, html {
 	padding-top: 15%;
 	line-height: 30px;
 }
+
 .introduction{
 	font-size: 50px;
 	font-family: 'Fjalla One', sans-serif;
@@ -34,6 +38,7 @@ body, html {
 }
 .introp{
 	font-family: Comic Sans MS,;
+	font-size: 17px;
 }
 p{
 	text-align: center;
