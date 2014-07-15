@@ -10,15 +10,11 @@ header {
 
 div {
   display: inline;
-  margin: 5px;
+  margin: 10px;
 }
 
 body, html {
   height: 100%;
-}
-
-h2 {
-  text-align: center;
 }
 
 .intro {
@@ -29,6 +25,19 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  opacity: 0.5;
+  padding-top: 15%;
+  line-height: 30px;
+}
+
+.introduction {
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+}
+
+.introp {
+  font-family: Comic Sans MS;
 }
 
 p {
