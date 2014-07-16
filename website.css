@@ -32,6 +32,8 @@ a {
 a:hover {
   background-color: black;
   opacity: 0.8;
+  -webkit-transform: rotate(360deg);
+  transition: all 1s linear;
 }
 
 .travels {
@@ -127,10 +129,54 @@ body, html {
   font-weight: bold;
 }
 
+.nest {
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+}
+
+.pearl {
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+}
+
+.great {
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+}
+
+.hkg {
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+}
+
 .introp {
   font-family: Comic Sans MS;
   font-size: 17px;
   /*width: 80%;*/
+}
+
+.beijing ul {
+  font-family: Comic Sans MS;
+  font-size: 17px;
+}
+
+.shanghai ul {
+  font-family: Comic Sans MS;
+  font-size: 17px;
+}
+
+.wall ul {
+  font-family: Comic Sans MS;
+  font-size: 17px;
+}
+
+.peak ul {
+  font-family: Comic Sans MS;
+  font-size: 17px;
 }
 
 p {
