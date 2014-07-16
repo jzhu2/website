@@ -45,6 +45,8 @@ a:hover{
 .intro1{
 	border: 20px solid rgba(121,141,111,1);
 	border-radius: 25%;
+	width: 80%;
+	margin: 0 auto;
 }
 .bei{
 	border: 20px dashed rgba(243,69,51,0.9);
@@ -68,7 +70,7 @@ body, html {
 .intro{
 	background-image:url("/img/map.jpg");
 	height: 100%;
-	width: fixed;
+	width: 100%;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
