@@ -33,7 +33,7 @@ a:hover {
   background-color: black;
   opacity: 0.8;
   -webkit-transform: rotate(360deg);
-  transition: all 1s linear;
+  transition: all 0.3s linear;
 }
 
 .travels {
@@ -46,6 +46,11 @@ a:hover {
 .intro1 {
   border: 20px solid green;
   border-radius: 25%;
+}
+
+.bei {
+  border: 20px dashed red;
+  border-radius: 20%;
 }
 
 body, html {
@@ -183,13 +188,28 @@ p {
   text-align: center;
 }
 
+img {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
+  img {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+
   .intro {
-    color: yellow;
-    opacity: 0.8;
+    opacity: 1;
     padding-top: 190px;
     width: 100%;
     position: absolute;
+    background-image: none;
+    color: black;
+  }
+
+  .intro1 {
+    background-color: rgba(0, 52, 134, 0.7);
   }
 
   .link {
