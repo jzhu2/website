@@ -40,12 +40,21 @@ a:hover{
 	text-align: center;
 }
 .intro1{
-	border: 20px solid green;
+	border: 20px solid rgba(121,141,111,1);
 	border-radius: 25%;
 }
 .bei{
-	border: 20px dashed red;
+	border: 20px dashed rgba(243,69,51,0.9);
 	border-radius: 20%;
+}
+.shang{
+	border: 20px dotted rgba(37,77,114,1);
+}
+.wonder{
+	border: 20px double rgba(99,117,129,1);
+}
+.tram{
+	border: 20px groove rgba(46,55,98,1);
 }
 body, html {
 	height:100%;
@@ -56,7 +65,7 @@ body, html {
 .intro{
 	background-image:url("/img/map.jpg");
 	height: 100%;
-	width: 100%;
+	width: fixed;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -118,7 +127,7 @@ body, html {
 }
 
 .introduction{
-	font-size: 50px;
+	font-size: 80px;
 	font-family: 'Fjalla One', sans-serif;
 	font-weight: bold;
 }
@@ -144,7 +153,7 @@ body, html {
 }
 .introp{
 	font-family: Comic Sans MS,;
-	font-size: 17px;
+	font-size: 25px;
 	/*width: 80%;*/
 }
 .beijing ul{
@@ -175,16 +184,28 @@ img{
 		position: relative;
 		width: 100%;
 	}
+	.introduction{
+		font-size: 50px
+	}
+	.introp{
+		font-size: 17px;
+	}
 	.intro{
 		opacity:1;
 		padding-top: 190px;
 		width: 100%;
 		position:absolute;
 		background-image: none;
-		color: black;
+		color: white;
+	}
+	.beijing{
+		background-image: none;
+		padding-top: 190px;
+	}
+	.shanghai{
 	}
 	.intro1{
-		background-color: rgba(0, 52, 134, 0.7);
+		background-color: rgba(8,23,56,1);
 	}
 	.link{
 		text-align: center;
