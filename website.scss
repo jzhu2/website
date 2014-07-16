@@ -1,3 +1,6 @@
+$fancy: 'Lobster', cursive; 
+$attraction: 'Fjalla One', sans-serif;
+$content: Comic Sans MS,;
 
 header{
 	position: fixed;
@@ -16,7 +19,7 @@ header{
 	margin-top: 10px;
 	font-size: 17px;
 	color: white;
-	font-family: 'Lobster', cursive;
+	font-family: $fancy;
 	text-align: center;
 }
 a{
@@ -36,7 +39,7 @@ a:hover{
 .travels{
 	font-size: 32px;
 	margin-right: 6%;
-	font-family: 'Lobster', cursive;
+	font-family: $fancy;
 	text-align: center;
 }
 .intro1{
@@ -128,48 +131,48 @@ body, html {
 
 .introduction{
 	font-size: 80px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: $attraction;
 	font-weight: bold;
 }
 .nest{
 	font-size: 50px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: $attraction;
 	font-weight: bold;
 }
 .pearl{
 	font-size: 50px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: $attraction;
 	font-weight: bold;
 }
 .great{
 	font-size: 50px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: $attraction;
 	font-weight: bold;
 }
 .hkg{
 	font-size: 50px;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: $attraction;
 	font-weight: bold;
 }
 .introp{
-	font-family: Comic Sans MS,;
+	font-family: $content;
 	font-size: 25px;
 	/*width: 80%;*/
 }
 .beijing ul{
-	font-family: Comic Sans MS,;
+	font-family: $content;
 	font-size: 17px;
 }
 .shanghai ul{
-	font-family: Comic Sans MS,;
+	font-family: $content;
 	font-size: 17px;
 }
 .wall ul{
-	font-family: Comic Sans MS,;
+	font-family: $content;
 	font-size: 17px;
 }
 .peak ul{
-	font-family: Comic Sans MS,;
+	font-family: $content;
 	font-size: 17px;
 }
 p{
@@ -203,6 +206,13 @@ img{
 		padding-top: 190px;
 	}
 	.shanghai{
+		background-image: none;
+	}
+	.wall{
+		background-image: none;
+	}
+	.peak{
+		background-image: none;
 	}
 	.intro1{
 		background-color: rgba(8,23,56,1);

@@ -16,7 +16,7 @@ header {
   margin-top: 10px;
   font-size: 17px;
   color: white;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@ a:hover {
 .travels {
   font-size: 32px;
   margin-right: 6%;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-align: center;
 }
 
@@ -142,31 +142,31 @@ body, html {
 
 .introduction {
   font-size: 80px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-weight: bold;
 }
 
 .nest {
   font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-weight: bold;
 }
 
 .pearl {
   font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-weight: bold;
 }
 
 .great {
   font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-weight: bold;
 }
 
 .hkg {
   font-size: 50px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-weight: bold;
 }
 
@@ -231,6 +231,18 @@ img {
   .beijing {
     background-image: none;
     padding-top: 190px;
+  }
+
+  .shanghai {
+    background-image: none;
+  }
+
+  .wall {
+    background-image: none;
+  }
+
+  .peak {
+    background-image: none;
   }
 
   .intro1 {
