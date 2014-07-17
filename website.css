@@ -155,13 +155,13 @@ body, html {
 }
 
 .introduction, .nest, .hkg,
-.harbor, .cn, .ni {
+.cn, .ni {
   font-size: 80px;
   font-family: "Fjalla One", sans-serif;
   font-weight: bold;
 }
 
-.pearl, .great, .pineapple, .olympic {
+.pearl, .great, .pineapple, .olympic, .harbor {
   font-size: 80px;
   font-family: "Fjalla One", sans-serif;
   font-weight: bold;
@@ -225,6 +225,28 @@ img {
     background-image: none;
   }
 
+  .wahiawa {
+    background-image: none;
+    padding-top: 190px;
+  }
+
+  .honolulu {
+    background-image: none;
+  }
+
+  .toronto {
+    background-image: none;
+    padding-top: 190px;
+  }
+
+  .montreal {
+    background-image: none;
+  }
+
+  .niagara {
+    background-image: none;
+  }
+
   .intro1 {
     background-color: #081738;
   }
@@ -243,6 +265,26 @@ img {
 
   .tram {
     background-color: rgba(34, 185, 239, 0.7);
+  }
+
+  .wah {
+    background-color: rgba(136, 161, 96, 0.9);
+  }
+
+  .ww2 {
+    background-color: #528dc7;
+  }
+
+  .tor {
+    background-color: rgba(75, 113, 126, 0.9);
+  }
+
+  .mon {
+    background-color: rgba(43, 82, 140, 0.8);
+  }
+
+  .falls {
+    background-color: rgba(70, 140, 109, 0.8);
   }
 
   .link {

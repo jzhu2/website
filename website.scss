@@ -132,13 +132,13 @@ body, html {
 }
 
 .introduction, .nest, .hkg,
-.harbor, .cn, .ni{
+.cn, .ni{
 	font-size: 80px;
 	font-family: $attraction;
 	font-weight: bold;
 }
 
-.pearl, .great, .pineapple, .olympic{
+.pearl, .great, .pineapple, .olympic, .harbor{
 	font-size: 80px;
 	font-family: $attraction;
 	font-weight: bold;
@@ -193,6 +193,23 @@ img{
 	.peak{
 		background-image: none;
 	}
+	.wahiawa{
+		background-image: none;
+		padding-top: 190px;
+	}
+	.honolulu{
+		background-image: none;
+	}
+	.toronto{
+		background-image: none;
+		padding-top: 190px;
+	}
+	.montreal{
+		background-image: none;
+	}
+	.niagara{
+		background-image: none;
+	}
 	.intro1{
 		background-color: rgba(8,23,56,1);
 	}
@@ -207,6 +224,21 @@ img{
 	}
 	.tram{
 		background-color: rgba(34,185,239,.7);
+	}
+	.wah{
+		background-color: rgba(136,161,96,.9);
+	}
+	.ww2{
+		background-color: rgba(82,141,199,1);
+	}
+	.tor{
+		background-color: rgba(75,113,126,.9);
+	}
+	.mon{
+		background-color: rgba(43,82,140,.8);
+	}
+	.falls{
+		background-color: rgba(70,140,109,.8)
 	}
 	.link{
 		text-align: center;
