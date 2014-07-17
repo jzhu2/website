@@ -42,47 +42,41 @@ a:hover{
 	font-family: $fancy;
 	text-align: center;
 }
-.intro1{
-	border: 20px solid rgba(121,141,111,1);
+.intro1, .bei, .shang, .wonder, .tram, 
+.wah, .ww2, .tor, .mon, .falls{
 	border-radius: 25%;
 	width: 80%;
 	margin: 0 auto;
 }
+.intro1{
+	border: 20px solid rgba(121,141,111,1);
+}
 .bei{
 	border: 20px dashed rgba(243,69,51,0.9);
-	border-radius: 25%;
-	width:80%;
-	margin:0 auto;
 }
 .shang{
 	border: 20px dotted rgba(37,77,114,1);
-	border-radius: 25%;
-	width:80%;
-	margin:0 auto;
 }
 .wonder{
 	border: 20px double rgba(99,117,129,1);
-	border-radius: 25%;
-	width:80%;
-	margin:0 auto;
 }
 .tram{
 	border: 20px groove rgba(46,55,98,1);
-	border-radius: 25%;
-	width:80%;
-	margin:0 auto;
 }
 .wah{
 	border: 20px ridge rgba(74, 91,80,1);
-	border-radius: 25%;
-	width:80%;
-	margin:0 auto;
 }
 .ww2{
 	border: 20px inset rgba(3,77,138,1);
-	border-radius: 25%;
-	width:80%;
-	margin:0 auto;
+}
+.tor{
+	border: 20px outset rgba(53,97,100,1);
+}
+.mon{
+	border: 20px solid rgba(51,93,162,1);
+}
+.falls{
+	border: 20px solid rgba(66,139,105,1);
 }
 body, html {
 	height:100%;

@@ -43,53 +43,51 @@ a:hover {
   text-align: center;
 }
 
-.intro1 {
-  border: 20px solid #798d6f;
+.intro1, .bei, .shang, .wonder, .tram,
+.wah, .ww2, .tor, .mon, .falls {
   border-radius: 25%;
   width: 80%;
   margin: 0 auto;
+}
+
+.intro1 {
+  border: 20px solid #798d6f;
 }
 
 .bei {
   border: 20px dashed rgba(243, 69, 51, 0.9);
-  border-radius: 25%;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .shang {
   border: 20px dotted #254d72;
-  border-radius: 25%;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .wonder {
   border: 20px double #637581;
-  border-radius: 25%;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .tram {
   border: 20px groove #2e3762;
-  border-radius: 25%;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .wah {
   border: 20px ridge #4a5b50;
-  border-radius: 25%;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .ww2 {
   border: 20px inset #034d8a;
-  border-radius: 25%;
-  width: 80%;
-  margin: 0 auto;
+}
+
+.tor {
+  border: 20px outset #356164;
+}
+
+.mon {
+  border: 20px solid #335da2;
+}
+
+.falls {
+  border: 20px solid #428b69;
 }
 
 body, html {
