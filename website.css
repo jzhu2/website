@@ -73,8 +73,9 @@ body, html {
   margin: 0 auto;
 }
 
-.intro {
-  background-image: url("/img/map.jpg");
+.intro, .beijing, .shanghai,
+.wall, .peak, .wahiawa,
+.honolulu, .toronto, .montreal, .niagara {
   height: 100%;
   width: 100%;
   background-attachment: fixed;
@@ -84,58 +85,46 @@ body, html {
   opacity: 0.9;
   padding-top: 17%;
   line-height: 30px;
+}
+
+.intro {
+  background-image: url("/img/map.jpg");
 }
 
 .beijing {
   background-image: url("/img/beijing.jpg");
-  height: 100%;
-  width: 100%;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  opacity: 0.9;
-  padding-top: 17%;
-  line-height: 30px;
 }
 
 .shanghai {
   background-image: url("/img/shanghai.jpg");
-  height: 100%;
-  width: 100%;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  opacity: 0.9;
-  padding-top: 17%;
-  line-height: 30px;
 }
 
 .wall {
   background-image: url("/img/wall.jpg");
-  height: 100%;
-  width: 100%;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  opacity: 0.9;
-  padding-top: 17%;
-  line-height: 30px;
 }
 
 .peak {
   background-image: url("/img/peak.jpg");
-  height: 100%;
-  width: 100%;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  opacity: 0.9;
-  padding-top: 17%;
-  line-height: 30px;
+}
+
+.wahiawa {
+  background-image: url("/img/maze.jpg");
+}
+
+.honolulu {
+  background-image: url("/img/pearl.jpg");
+}
+
+.toronto {
+  background-image: url("/img/cn.jpg");
+}
+
+.montreal {
+  background-image: url("/img/montreal.jpg");
+}
+
+.niagara {
+  background-image: url("/img/falls.jpg");
 }
 
 .intro .intro1 {
