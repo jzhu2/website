@@ -10,8 +10,8 @@ header {
   /*margin-right: 6%*/
 }
 
-.link {
-  display: inline;
+.pure-u-1-4 {
+  display: block;
   /*margin-right: 6%;*/
   margin-top: 10px;
   font-size: 17px;
@@ -22,11 +22,11 @@ header {
 
 a {
   border-bottom: 3px solid white;
-  margin: 9%;
   color: orange;
   text-decoration: none;
   /*cursor: not-allowed;*/
   text-align: center;
+  font-family: "Lobster", cursive;
 }
 
 a:hover {
@@ -101,10 +101,10 @@ body, html {
 .honolulu, .toronto, .montreal, .niagara {
   height: 100%;
   width: 100%;
+  color: white;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
   opacity: 0.9;
   padding-top: 17%;
   line-height: 30px;
@@ -116,6 +116,12 @@ body, html {
 
 .beijing {
   background-image: url("/img/beijing.jpg");
+}
+
+.bei:hover, .shang:hover, .wonder:hover,
+.tram:hover, .wah:hover, .ww2:hover,
+.tor:hover, .mon:hover, .falls:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .shanghai {
@@ -154,18 +160,19 @@ body, html {
   opacity: 1;
 }
 
-.introduction, .nest, .hkg,
-.cn, .ni {
+.introduction {
   font-size: 80px;
   font-family: "Fjalla One", sans-serif;
   font-weight: bold;
 }
 
-.pearl, .great, .pineapple, .olympic, .harbor {
+.pearl, .great, .pineapple,
+.olympic, .harbor, .nest,
+.hkg, .ni, .cn {
   font-size: 80px;
   font-family: "Fjalla One", sans-serif;
   font-weight: bold;
-  line-height: 80px;
+  line-height: 90px;
 }
 
 .introp, .beijing ul, .shanghai ul, .wall ul,
@@ -298,6 +305,14 @@ img {
 
   .link {
     display: block;
+  }
+
+  .pineapple {
+    font-size: 50px;
+  }
+
+  .wahiawa ul {
+    font-size: 25px;
   }
 
   header {
