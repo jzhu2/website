@@ -31,7 +31,7 @@ a {
 
 a:hover {
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.7;
   -webkit-transform: rotate(360deg);
   transition: all 0.3s linear;
 }
@@ -52,19 +52,44 @@ a:hover {
 
 .bei {
   border: 20px dashed rgba(243, 69, 51, 0.9);
-  border-radius: 20%;
+  border-radius: 25%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .shang {
   border: 20px dotted #254d72;
+  border-radius: 25%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .wonder {
   border: 20px double #637581;
+  border-radius: 25%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .tram {
   border: 20px groove #2e3762;
+  border-radius: 25%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wah {
+  border: 20px ridge #4a5b50;
+  border-radius: 25%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ww2 {
+  border: 20px inset #034d8a;
+  border-radius: 25%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 body, html {
@@ -131,60 +156,25 @@ body, html {
   opacity: 1;
 }
 
-.introduction {
+.introduction, .nest, .hkg,
+.harbor, .cn, .ni {
   font-size: 80px;
   font-family: "Fjalla One", sans-serif;
   font-weight: bold;
 }
 
-.nest {
-  font-size: 50px;
+.pearl, .great, .pineapple, .olympic {
+  font-size: 80px;
   font-family: "Fjalla One", sans-serif;
   font-weight: bold;
+  line-height: 80px;
 }
 
-.pearl {
-  font-size: 50px;
-  font-family: "Fjalla One", sans-serif;
-  font-weight: bold;
-}
-
-.great {
-  font-size: 50px;
-  font-family: "Fjalla One", sans-serif;
-  font-weight: bold;
-}
-
-.hkg {
-  font-size: 50px;
-  font-family: "Fjalla One", sans-serif;
-  font-weight: bold;
-}
-
-.introp {
+.introp, .beijing ul, .shanghai ul, .wall ul,
+.peak ul, .wahiawa ul, .honolulu ul,
+.toronto ul, .montreal ul, .niagara ul {
   font-family: Comic Sans MS;
   font-size: 25px;
-  /*width: 80%;*/
-}
-
-.beijing ul {
-  font-family: Comic Sans MS;
-  font-size: 17px;
-}
-
-.shanghai ul {
-  font-family: Comic Sans MS;
-  font-size: 17px;
-}
-
-.wall ul {
-  font-family: Comic Sans MS;
-  font-size: 17px;
-}
-
-.peak ul {
-  font-family: Comic Sans MS;
-  font-size: 17px;
 }
 
 p {
@@ -222,6 +212,7 @@ img {
   .beijing {
     background-image: none;
     padding-top: 190px;
+    color: white;
   }
 
   .shanghai {
@@ -238,6 +229,22 @@ img {
 
   .intro1 {
     background-color: #081738;
+  }
+
+  .bei {
+    background-color: rgba(81, 60, 67, 0.7);
+  }
+
+  .shang {
+    background-color: rgba(94, 58, 81, 0.6);
+  }
+
+  .wonder {
+    background-color: rgba(166, 140, 115, 0.7);
+  }
+
+  .tram {
+    background-color: rgba(34, 185, 239, 0.7);
   }
 
   .link {
