@@ -1,18 +1,16 @@
+/*NAV BAR*/
 header {
   position: fixed;
   width: 100%;
-  /*display: block;*/
   background-color: #0033FF;
   z-index: 1;
   padding: 10px;
   color: white;
   opacity: 0.8;
-  /*margin-right: 6%*/
 }
 
 .pure-u-1-4 {
   display: block;
-  /*margin-right: 6%;*/
   margin-top: 10px;
   font-size: 17px;
   color: white;
@@ -20,11 +18,10 @@ header {
   text-align: center;
 }
 
-a {
+a, a:hover {
   border-bottom: 3px solid white;
   color: orange;
   text-decoration: none;
-  /*cursor: not-allowed;*/
   text-align: center;
   font-family: "Lobster", cursive;
 }
@@ -43,6 +40,7 @@ a:hover {
   text-align: center;
 }
 
+/*CONTENT: BORDERS*/
 .intro1, .bei, .shang, .wonder, .tram,
 .wah, .ww2, .tor, .mon, .falls {
   border-radius: 25%;
@@ -90,6 +88,7 @@ a:hover {
   border: 20px solid #428b69;
 }
 
+/*BACKGROUND: COLOR AND IMAGES*/
 body, html {
   height: 100%;
   width: 100%;
@@ -116,12 +115,6 @@ body, html {
 
 .beijing {
   background-image: url("/img/beijing.jpg");
-}
-
-.bei:hover, .shang:hover, .wonder:hover,
-.tram:hover, .wah:hover, .ww2:hover,
-.tor:hover, .mon:hover, .falls:hover {
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .shanghai {
@@ -156,10 +149,13 @@ body, html {
   background-image: url("/img/falls.jpg");
 }
 
-.intro .intro1 {
-  opacity: 1;
+.bei:hover, .shang:hover, .wonder:hover,
+.tram:hover, .wah:hover, .ww2:hover,
+.tor:hover, .mon:hover, .falls:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
+/*TEXT*/
 .introduction {
   font-size: 80px;
   font-family: "Fjalla One", sans-serif;
@@ -190,24 +186,24 @@ img {
   display: none;
 }
 
+/*MOBILE*/
 @media screen and (max-width: 500px) {
+  /*IMAGE ALIGNMENT*/
   img {
     display: inline-block;
     position: relative;
     width: 100%;
   }
 
-  .introduction {
-    font-size: 50px;
-  }
-
-  .introp {
-    font-size: 17px;
+  .intro, .beijing, .shanghai, .wall,
+  .peak, .wahiawa, .honolulu, .toronto,
+  .montreal, .niagara {
+    background-image: none;
   }
 
   .intro {
     opacity: 1;
-    padding-top: 190px;
+    padding-top: 100px;
     width: 100%;
     position: absolute;
     background-image: none;
@@ -215,45 +211,44 @@ img {
   }
 
   .beijing {
-    background-image: none;
-    padding-top: 190px;
+    padding-top: 100px;
     color: white;
   }
 
   .shanghai {
     background-image: none;
+    margin-top: 350px;
   }
 
   .wall {
-    background-image: none;
+    margin-top: 500px;
   }
 
   .peak {
-    background-image: none;
+    margin-top: 550px;
   }
 
   .wahiawa {
-    background-image: none;
-    padding-top: 190px;
+    padding-top: 100px;
   }
 
   .honolulu {
-    background-image: none;
+    margin-top: 550px;
   }
 
   .toronto {
-    background-image: none;
-    padding-top: 190px;
+    padding-top: 100px;
   }
 
   .montreal {
-    background-image: none;
+    margin-top: 450px;
   }
 
   .niagara {
-    background-image: none;
+    margin-top: 600px;
   }
 
+  /*BACKGROUND COLOR*/
   .intro1 {
     background-color: #081738;
   }
@@ -294,17 +289,18 @@ img {
     background-color: rgba(70, 140, 109, 0.8);
   }
 
-  .link {
-    text-align: center;
+  .introduction {
+    font-size: 50px;
   }
 
+  .introp {
+    font-size: 17px;
+  }
+
+  /*TEXT*/
   .travels {
     display: block;
     text-align: center;
-  }
-
-  .link {
-    display: block;
   }
 
   .pineapple {
